@@ -1,0 +1,21 @@
+const { isBuffer } = require("util");
+
+var buffer1=Buffer.alloc(100);
+buffer1.write("i am here");
+var a=buffer1.toString('utf-8');
+console.log(a);
+console.log(Buffer.isBuffer(buffer1));
+console.log(buffer1.length);
+var bufferSource=new Buffer('ABC');
+var bufferDesination=Buffer.alloc(3);
+bufferSource.copy(bufferDest);
+var Data=bufferDest.toString('utf-8');
+console.log(Data);
+var bufferOld=new Buffer('INDIA IS GREATE');
+var bufferNew= bufferOld.slice(0,4);
+console.log(bufferNew.toString());
+var bufferOne=new Buffer('INDIA');
+var bufferTWO =new Buffer('IS GREATE');
+var bufferFour=new Buffer('JAI HINDI');
+var bufferThree=Buffer.concat{[bufferOne,bufferTWO,bufferFour]};
+console.log(bufferThree.toString());
