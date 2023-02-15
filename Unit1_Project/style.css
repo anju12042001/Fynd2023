@@ -1,0 +1,97 @@
+body{
+    font-family: 'Lato', sans-serif;
+    padding: 0;
+    margine: 0;
+
+}
+nav{
+    background-color: #111;
+    color: white;
+    padding: 20px 50px;
+    }
+
+    .navTop{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .search{
+        display: flex;
+        align-items: center;
+        background-color:gray ;
+        padding: 10px 20px ;
+        border-radius: 10px;
+    }
+
+    .searchInput{
+        border:none ;
+        background-color: transparent;
+    }
+
+    .searchInput::placeholder{
+        color: lightgray;
+    }
+
+    .limitedOffer{
+        font-size: 20px;
+        border-bottom: 2px solid green;
+        curser: pointer;
+    }
+
+    .navBottom{
+        display: flex;
+        align-items: center;
+        justify-content:center;
+    }
+
+    .menuItem{
+        margin-right: 50px;
+        cursor: pointer;
+        color: lightgrey;
+        font-weight: 400px;
+    }
+
+    .sliderwrapper{
+        display: flex;
+        width: 500vw;
+    }
+
+    .sliderItem{
+        width: 100vw;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+
+    .slideBg{
+        width: 750px;
+        height: 750px;
+        border-radius: 50%;
+        position: absolute;
+    }
+
+    
+    }
+
+    .sliderTitle{
+        position: absolute;
+        top: 0;
+        left: 10%;
+        font-weight: 900;
+        text-align: center;
+
+    }
+
+    .sliderPrice{
+        position: absolute;
+        top: 0;
+        left: 500%;
+        font-weight: 900;
+        text-align: center;
+
+    }
+
+
+    
