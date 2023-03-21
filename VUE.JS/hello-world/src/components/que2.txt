@@ -1,0 +1,17 @@
+MVVM (Model View ViewModel) Architecture 
+
+Developers always prefer clean and structured code for projects. 
+Organizing the codes according to a design pattern helps in the maintenance of the software. 
+By having knowledge of all crucial logic parts of the android application, it is easier to add and remove app features.
+ Further, design patterns also assure that all the codes get covered in Unit Testing without the interference of other classes. 
+
+Model — View — ViewModel (MVVM) is the industry-recognized software architecture pattern that overcomes all drawbacks of MVP and MVC design patterns. 
+MVVM suggests separating the data presentation logic(Views or UI) from the core business logic part of the application. 
+
+The separate code layers of MVVM are:
+
+Model: This layer is responsible for the abstraction of the data sources. Model and ViewModel work together to get and save the data.
+
+View: The purpose of this layer is to inform the ViewModel about the user’s action. This layer observes the ViewModel and does not contain any kind of application logic.
+
+ViewModel: It exposes those data streams which are relevant to the View. Moreover, it serves as a link between the Model and the View.
